@@ -208,11 +208,29 @@ namespace Practice_Linq
             //Query 9: Перетворити всі матчі UEFA Nations League у 2023 році на матчі з наступними властивостями:
             // MatchYear - рік матчу, Game - назви обох команд через дефіс (першою - Home_team), Result - результат для першої команди (Win, Loss, Draw)
 
-            var selectedGames = games;   // Корегуємо запит !!!
+            var selectedGames = games.Where(game => game.Tournament == "UEFA Nations League" && game.Date.Year == 2023);// Корегуємо запит !!!
+            var transformedMatches = selectedGames.Select(match => new
+            {
+                MatchYear = match.Date.Year,
+                Game = $"{match.Home_team}-{match.Away_team}",
+                Result = GetResultForFirstTeam(match.Home_score, match.Away_score)
 
+            }) ;
+            string GetResultForFirstTeam(int homeScore, int awayScore)
+            {
+                if (homeScore > awayScore)
+                    return "Win";
+                else if (homeScore < awayScore)
+                    return "Loss";
+                else
+                    return "Draw";
+            }
             // Перевірка
             Console.WriteLine("\n======================== QUERY 9 ========================");
-
+            foreach (var item in transformedMatches)
+            {
+                Console.WriteLine($"{item.MatchYear} {item.Game}, Result for team1: {item.Result}");
+            }
             // див. приклад як має бути виведено:
 
 
