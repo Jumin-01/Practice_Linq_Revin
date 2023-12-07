@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "13Bgdn9CDvVGKclQmjwKIdf2skC7gVc1rlZzux0RzLt59IUEIncYjHW+NLg0aBO1Ulpxah9yjtRAlVsQO+E6kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq\\Practice_Linq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Веніамін Ревін\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
