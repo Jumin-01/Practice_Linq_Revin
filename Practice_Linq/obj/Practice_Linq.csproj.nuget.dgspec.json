@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq\\Practice_Linq.csproj": {}
+    "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq_Revin\\Practice_Linq\\Practice_Linq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq\\Practice_Linq.csproj": {
+    "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq_Revin\\Practice_Linq\\Practice_Linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq\\Practice_Linq.csproj",
+        "projectUniqueName": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq_Revin\\Practice_Linq\\Practice_Linq.csproj",
         "projectName": "Practice_Linq",
-        "projectPath": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq\\Practice_Linq.csproj",
+        "projectPath": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq_Revin\\Practice_Linq\\Practice_Linq.csproj",
         "packagesPath": "C:\\Users\\Веніамін Ревін\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq\\obj\\",
+        "outputPath": "C:\\Users\\Веніамін Ревін\\Source\\Repos\\Practice_Linq_Revin\\Practice_Linq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
